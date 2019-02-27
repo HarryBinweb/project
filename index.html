@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>index3</title>
+    <link href="./bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <nav class="navbar navbar-default navbar-static-top navbox">
+    <!-- 顶部蓝条 -->
+    <div class="container-fluid hidden-xs hidden-sm">
+        <div class="row bg-primary top-text">
+          <div class="col-md-2 col-lg-2"></div>
+          <div class="col-md-4 col-lg-4"><p>XXXXXX股份有限公司</p></div>
+          <div class="col-md-1 col-lg-1"></div>
+          <div class="col-md-2 col-lg-2">咨询热线：123456789</div>
+          <div class="col-md-1 col-lg-1">中文</div>
+          <div class="col-md-2 col-lg-2"></div>
+        </div>
+    </div>
+    <div class="container top-con">
+      <!-- 小屏下拉菜单 -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed navbtn" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar" href="#">
+          <img class="img-responsive logo" src="imgs/logo.png">
+        </a>
+      </div>
+      <!-- 导航栏 -->
+      <div class="collapse navbar-collapse navlistBox" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right navlist">
+          <li class="active"><a href="#">首 页</a></li>
+          <li><a href="#">关于我们</a></li>
+          <li><a href="#">业务领域</a></li>
+          <li><a href="#">新闻资讯</a></li>
+          <li><a href="#">合作伙伴</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div>
+    <!-- 轮播图 -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	    <!-- 小圆点 -->
+	    <ol class="carousel-indicators">
+	      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+	      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	      <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+	    </ol>
+
+	    <!-- 轮播图 -->
+	    <div class="carousel-inner" role="listbox">
+	      <div class="item active">
+	        <img class="img-responsive" src="./imgs/Carousel1.jpg" alt="">
+	      </div>
+	      <div class="item">
+	        <img class="img-responsive" src="./imgs/Carousel2.jpg" alt="">
+	      </div>
+	      <div class="item">
+	        <img class="img-responsive" src="./imgs/Carousel3.jpg" alt="">
+	      </div>
+	      <div class="item">
+	        <img class="img-responsive" src="./imgs/Carousel4.jpg" alt="">
+	      </div>
+	    </div>
+
+	    <!-- 上下按钮 -->
+	    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    </a>
+	    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    </a>
+ 	</div>
+  </div>
+  <div class="about-aj">
+  	<span class="about-tit tit hidden-xs">About us</span>
+  	<div class="about-main">
+  		<h1>关于我们</h1>
+  		<p>XXXXXX股份有限公司成立于2000年9月，是上汽集团所属专业从事汽车物流业务的子公司。 在多年的发展历程中，安吉物流不断挑战自我，勇于创新，形成了整车物流、零部件物流、口岸物流、航运物流、商用车及装备物流、快运物流、国际物流、信息技术等几大业务板块，配送网络覆盖全国562个城市，……</p>
+  		<button type="button" class="btn btn-default about-more">MORE</button>
+  		<div class="row">
+  			<div class="col-md-4">
+  				<div class="about-img">
+  					<img src="imgs/home_icon1.png">
+  				</div>
+  				<div class="about-text">
+  					<h4>企业愿景</h4>
+  					<p class="text-muted">成为可以托付的一体化智能供应链服务商</p>
+  				</div>
+  			</div>
+  			<div class="col-md-4">
+  				<div class="about-img">
+  					<img src="imgs/home_icon2.png">
+  				</div>
+  				<div class="about-text">
+  					<h4>企业使命</h4>
+  					<p class="text-muted">用心服务，用情感动，用劲成就</p>
+  				</div>
+  			</div>
+  			<div class="col-md-4">
+  				<div class="about-img">
+  					<img src="imgs/home_icon3.png">
+  				</div>
+  				<div class="about-text">
+  					<h4>核心价值观</h4>
+  					<p class="text-muted">以诚行道 以信载物</p>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+  <div class="field-aj">
+  		<span class="field-tit tit">BUSINESS AREA</span>
+  		<h3 class="text-center">业务<span>领域</span></h3>
+  		<div class="container field-m">
+  			<div class="row field-main">
+			  <div class="col-sm-6 col-md-3">
+			    <div class="thumbnail liBox">
+			      <img src="imgs/haiwaiwuliu.jpg" alt="img">
+			      <div class="caption">
+			        <h3>海外物流</h3>
+			        <p class="text-muted">海外事业部是以安吉物流战略保障为目标，为上汽集团保驾护航，同时打造安吉...</p>
+			        <p><a href="#" class="btn btn-default" role="button">MORE +</a></p>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col-sm-6 col-md-3">
+			    <div class="thumbnail liBox">
+			      <img src="imgs/haiwaiwuliu.jpg" alt="img">
+			      <div class="caption">
+			        <h3>海外物流</h3>
+			        <p class="text-muted">海外事业部是以安吉物流战略保障为目标，为上汽集团保驾护航，同时打造安吉...</p>
+			        <p><a href="#" class="btn btn-default" role="button">MORE +</a></p>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col-sm-6 col-md-3">
+			    <div class="thumbnail liBox">
+			      <img src="imgs/haiwaiwuliu.jpg" alt="img">
+			      <div class="caption">
+			        <h3>海外物流</h3>
+			        <p class="text-muted">海外事业部是以安吉物流战略保障为目标，为上汽集团保驾护航，同时打造安吉...</p>
+			        <p><a href="#" class="btn btn-default" role="button">MORE +</a></p>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col-sm-6 col-md-3">
+			    <div class="thumbnail liBox">
+			      <img src="imgs/haiwaiwuliu.jpg" alt="img">
+			      <div class="caption">
+			        <h3>海外物流</h3>
+			        <p class="text-muted">海外事业部是以安吉物流战略保障为目标，为上汽集团保驾护航，同时打造安吉...</p>
+			        <p><a href="#" class="btn btn-default" role="button">MORE +</a></p>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+  		</div>
+  </div>
+  
+  <div class="container news">
+  	<div class="row newsTop">
+  		<span class="field-tit tit newsTit">YANQING NEWS</span>
+  		<h3>新闻资讯</h3>
+  		<a href="javascript: ;">MORE</a>
+  	</div>
+  	<div class="row">
+  		<div class="col-md-6">
+  			<div class="thumbnail newsL">
+		      <a href="javascript: ;" class="imgsA img-responsive"><img src="./imgs/theBoth.jpg" class="news-img" alt="..."></a>
+		      <div class="caption">
+		      	<div class="row text-center">
+			      	<div class="col-md-2 news_dataBox">
+			      		<span class="news_date">2019</span>
+			      		<span>01-31</span>
+			      	</div>
+			      	<div class="col-md-10">
+			      		<div class="text-b"> 
+			      			<a href="javascript: ;" class="news-tit">聚焦 | 上汽物流口岸“T”型物流枢纽建设取得新突破</a>
+							<p class="news-txt">12月27日上午9时，随着货轮稳稳地靠泊在新建的汽车码头泊位上，标志着广州港海嘉新建码头项目经过前期紧张的建设工作，初步具备靠船条件，上汽安...</p>
+						</div>
+			      	</div>
+		      	</div>
+		      </div>
+		    </div>
+  		</div>
+  		<div class="col-md-6">
+  			<div class="panel panel-default newsL newsList text-muted">
+			  <div class="panel-body">
+			    <div class="row">
+			    	<div class="col-md-4 col-xs-5">
+			    		<span class="ri pull-left">07</span>
+			    		<div class="t">
+			    			<span>12月</span>
+			    			<i></i>
+			    			<span>2018</span>
+			    		</div>
+			    	</div>
+			    	<div class="col-md-8 col-xs-7">
+			    		<p class="news-txt">12月27日上午9时，随着货轮稳稳地靠泊在新建的汽车码头泊位上，标志着广州港海嘉新建码头项目经过前期紧张的建设工作，初步具备靠船条件，上汽安...</p>
+			    	</div>
+			    </div>
+			  </div>
+			</div>
+			<div class="panel panel-default newsL newsList text-muted">
+			  <div class="panel-body">
+			    <div class="row">
+			    	<div class="col-md-4 col-xs-5">
+			    		<span class="ri pull-left">07</span>
+			    		<div class="t">
+			    			<span>12月</span>
+			    			<i></i>
+			    			<span>2018</span>
+			    		</div>
+			    	</div>
+			    	<div class="col-md-8 col-xs-7">
+			    		<p class="news-txt">12月27日上午9时，随着货轮稳稳地靠泊在新建的汽车码头泊位上，标志着广州港海嘉新建码头项目经过前期紧张的建设工作，初步具备靠船条件，上汽安...</p>
+			    	</div>
+			    </div>
+			  </div>
+			</div>
+			<div class="panel panel-default newsL newsList text-muted">
+			  <div class="panel-body">
+			    <div class="row">
+			    	<div class="col-md-4 col-xs-5">
+			    		<span class="ri pull-left">07</span>
+			    		<div class="t">
+			    			<span>12月</span>
+			    			<i></i>
+			    			<span>2018</span>
+			    		</div>
+			    	</div>
+			    	<div class="col-md-8 col-xs-7">
+			    		<p class="news-txt">12月27日上午9时，随着货轮稳稳地靠泊在新建的汽车码头泊位上，标志着广州港海嘉新建码头项目经过前期紧张的建设工作，初步具备靠船条件，上汽安...</p>
+			    	</div>
+			    </div>
+			  </div>
+			</div>
+  		</div>
+  	</div>
+  </div>
+  <div class="container partner text-center hidden-xs">
+  	<div class="row partnerTop">
+  		<span class="field-tit tit newsTit">PARTNER</span>
+  		<h3 class="text-center ">合作伙伴</h3>
+  	</div>
+  	<!-- <div class="row partner-mans">
+  		<div class="col-xs-6 col-md-3">
+		    <a href="#" class="thumbnail">
+		      <img src="./imgs/jd.jpg" alt="...">
+		    </a>
+		</div>
+		<div class="col-xs-6 col-md-3">
+		    <a href="#" class="thumbnail">
+		      <img src="./imgs/jd.jpg" alt="...">
+		    </a>
+		</div>
+		<div class="col-xs-6 col-md-3">
+		    <a href="#" class="thumbnail">
+		      <img src="./imgs/jd.jpg" alt="...">
+		    </a>
+		</div>
+		<div class="col-xs-6 col-md-3">
+		    <a href="#" class="thumbnail">
+		      <img src="./imgs/jd.jpg" alt="...">
+		    </a>
+		</div>
+		<div class="col-xs-6 col-md-3">
+		    <a href="#" class="thumbnail">
+		      <img src="./imgs/jd.jpg" alt="...">
+		    </a>
+		</div>
+		<div class="col-xs-6 col-md-3">
+		    <a href="#" class="thumbnail">
+		      <img src="./imgs/jd.jpg" alt="...">
+		    </a>
+		</div>
+		<div class="col-xs-6 col-md-3">
+		    <a href="#" class="thumbnail">
+		      <img src="./imgs/jd.jpg" alt="...">
+		    </a>
+		</div>
+		<div class="col-xs-6 col-md-3">
+		    <a href="#" class="thumbnail">
+		      <img src="./imgs/jd.jpg" alt="...">
+		    </a>
+		</div>
+  	</div> -->
+  	<div class="swGo">
+  		<div class="swiper-container">
+	        <div class="swiper-wrapper partner-mans">
+	            <div class="swiper-slide">
+	            	<a href="#" class="">
+				      <img src="./imgs/jd.jpg" alt="...">
+				    </a>
+	            </div>
+	            <div class="swiper-slide">
+	            	<a href="#" class="">
+				      <img src="./imgs/jd.jpg" alt="...">
+				    </a>
+	            </div><div class="swiper-slide">
+	            	<a href="#" class="">
+				      <img src="./imgs/jd.jpg" alt="...">
+				    </a>
+	            </div><div class="swiper-slide">
+	            	<a href="#" class="">
+				      <img src="./imgs/jd.jpg" alt="...">
+				    </a>
+	            </div><div class="swiper-slide">
+	            	<a href="#" class="">
+				      <img src="./imgs/jd.jpg" alt="...">
+				    </a>
+	            </div><div class="swiper-slide">
+	            	<a href="#" class="">
+				      <img src="./imgs/jd.jpg" alt="...">
+				    </a>
+	            </div><div class="swiper-slide">
+	            	<a href="#" class="">
+				      <img src="./imgs/jd.jpg" alt="...">
+				    </a>
+	            </div><div class="swiper-slide">
+	            	<a href="#" class="">
+				      <img src="./imgs/jd.jpg" alt="...">
+				    </a>
+	            </div><div class="swiper-slide">
+	            	<a href="#" class="">
+				      <img src="./imgs/jd.jpg" alt="...">
+				    </a>
+	            </div><div class="swiper-slide">
+	            	<a href="#" class="">
+				      <img src="./imgs/jd.jpg" alt="...">
+				    </a>
+	            </div><div class="swiper-slide">
+	            	<a href="#" class="">
+				      <img src="./imgs/jd.jpg" alt="...">
+				    </a>
+	            </div><div class="swiper-slide">
+	            	<a href="#" class="">
+				      <img src="./imgs/jd.jpg" alt="...">
+				    </a>
+	            </div><div class="swiper-slide">
+	            	<a href="#" class="">
+				      <img src="./imgs/jd.jpg" alt="...">
+				    </a>
+	            </div><div class="swiper-slide">
+	            	<a href="#" class="">
+				      <img src="./imgs/jd.jpg" alt="...">
+				    </a>
+	            </div>
+	        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+  	</div>
+  	<button type="button" class="btn btn-default about-more">MORE</button>
+  </div>
+  <div class="container-fluid footerL">
+  	<div class="container frendLink hidden-sm hidden-xs">
+  		<span class="">友情链接:</span>
+  		<a href="javascript: ;">百度一下</a>
+  		<a href="javascript: ;">百度一下</a>
+  		<a href="javascript: ;">百度一下</a>
+  		<a href="javascript: ;">百度一下</a>
+  		<a href="javascript: ;">百度一下</a>
+  	</div>
+  </div>
+  <div class="container-fluid footer">
+  	<div class="container footer-main hidden-sm hidden-xs">
+  		<div class="col-md-8">
+  			<div class="col-md-2">
+  				<p class="fTit">联系我们</p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  			</div>
+  			<div class="col-md-2">
+  				<p class="fTit">联系我们</p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  			</div>
+  			<div class="col-md-2">
+  				<p class="fTit">联系我们</p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  			</div>
+  			<div class="col-md-2">
+  				<p class="fTit">联系我们</p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  			</div>
+  			<div class="col-md-2">
+  				<p class="fTit">联系我们</p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  			</div>
+  			<div class="col-md-2">
+  				<p class="fTit">联系我们</p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  				<p class="fLi"><a href="javascript: ;">联系方式</a></p>
+  			</div>
+  		</div>
+  		<div class="col-md-4">
+  			<p class="fTit">XXXXXX股份有限公司</p>
+  			<p class="fLi">电话:+86 123456789</p>
+  			<p class="fLi">电话:+86 123456789</p>
+  			<p class="fLi">电话:+86 123456789</p>
+  		</div>
+  	</div>
+  	<div class="container footerBottom">
+  		<span>版权所有©上汽安吉物流股份有限公司沪ICP备11012378号  沪公网安备31011002000404号</span>
+  	</div>
+  	</div>
+  </div>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script src="./bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script>
+    	var swiper = new Swiper('.swiper-container', {
+	        pagination: '.swiper-pagination',
+	        autoplay:true,
+	        slidesPerView: 4,
+	        slidesPerColumn: 2,
+	        paginationClickable: true,
+	        spaceBetween: 30
+	    });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,386 @@
+/*公共样式*/
+*{
+	margin:0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+img{
+	border: 0;
+}
+a:hover{
+	text-decoration: none;
+}
+.about-more{
+	font-size: 16px;
+	box-sizing: border-box;
+	border: 1px solid #bad2e9;
+	color: #0058ad;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	width: 160px;
+	border-radius: 2px;
+    transition: all .5s;
+}
+.about-more:hover{
+	background: #17498e;
+	color: #fff;
+}
+/*C3公共动画*/
+.about-aj:hover .about-tit,.field-aj:hover .tit{
+	transform: translate(0,-40px);
+}
+
+/*头部*/
+.navbox{
+	background-color: transparent;
+    border: none;
+    margin-bottom: 0;
+}
+.top-con{
+	padding: 15px 0;
+}
+.top-text{
+	line-height: 40px;
+	height: 40px;
+}
+.navbtn{
+	margin-top: 40px;
+	z-index: 10;
+	float: none;
+	position: absolute;
+	right: -20px;
+    top: -17px;
+}
+.navlist li.active a,.navlist li a:hover,.nav > li > a:hover{	
+	border-bottom: 2px solid blue;
+	box-sizing: border-box;
+	background-color: transparent !important;
+	color: #1c5ca9;
+}
+.navlist li a{
+	margin-top: 30px;
+	text-align: center;
+	color: #000;
+	font-size: 15px;
+}
+.navlist li{
+    /*padding: 0 15px;*/
+    padding: 0 20px 29px;
+}
+/*关于我们*/
+.about-aj{
+    padding-top: 20px;
+    margin-bottom: 60px;
+}
+.about-aj .about-tit,.tit{
+	display: block;
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 158px;
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all .5s ease;
+}
+.about-aj .about-main{
+    background: #fff;
+    width: 88%;
+    margin: -92px auto 0;
+    text-align: center;
+    min-height: 305px;
+    padding: 35px 5% 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding-bottom: 0;
+}
+@media (min-width: 1230px){
+	.about-aj .about-main{
+		width: 1230px;
+	}
+}
+@media (max-width: 640px){
+	.about-aj .about-main{
+		width: 100%;
+	    margin-top: 3%;
+	    padding: 5% 10px;
+	    margin:0;
+	}
+	.tit{
+		font-size: 32px !important;
+		text-align: center !important;
+	}
+}
+.about-img img{
+	transition: all .6s ease;
+}
+.about-img img:hover{
+	transform: rotate(360deg);
+}
+/*业务领域*/
+.field-aj{
+	background: url(../imgs/home_bg.jpg) no-repeat center top;
+	padding: 80px 0;
+}
+.field-aj .tit{
+	font-size: 68px;
+	opacity: .3;
+    transition: all .5s ease;
+}
+.field-aj>h3{
+	font-family: "微软雅黑";
+	color: #FFF;
+	position: relative;
+	margin-top: -40px;
+}
+.field-aj h3 span{
+	font-size: 36px;
+    color: #17498e;	
+    font-weight: 700;
+}
+/*.field-m{
+	min-width: 1227px;
+}
+.fieldBox{
+	width: 1000%;
+	margin-top: 53px;
+	position: relative;
+}
+.fieldBox li{
+	transition: all .6s ease;
+	margin:0 5px;
+	padding-bottom: 40px;
+	float: left;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+	background-color: #FFF;
+}
+.fieldBox li:hover{
+	transform: translate(0,-15px);
+}
+.fieldBox li{
+	width: 293px;
+}
+.field-text{
+	margin-left: 15px;
+	height:100px;
+	padding-right: 5px;
+}
+.field-text span{
+	display: block;
+	width: 100px;
+	padding: 5px 10px;
+	transition: all .6s ease;
+}
+.fieldBox li:hover .field-text span{
+	background-color: blue;
+	color: #FFF;
+	text-indent: 2rem;
+}
+@media (max-width: 1200px) {
+	.logo{
+		width: 280px;
+	}
+	.field-m{
+		min-width: auto;
+		margin-top: 55px;
+	}
+	.fieldBox{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.fieldBox li{
+		margin-bottom: 35px;
+	}
+	
+}
+@media (max-width: 768px) {
+	.field-aj{
+		padding-bottom: 0;
+	}
+	.fieldBox li,.fieldBox li:nth-child(1),.fieldBox li:nth-child(3){
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 35px;
+	}
+}*/
+.field-main{
+	margin-top: 65px;
+}
+.liBox{
+	padding:0;
+	border: none;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+	transition: all .6s ease;
+}
+.liBox:hover{
+	transform: translate(0,-15px);
+}
+.liBox .caption a{
+	border: none;
+	width: 100px;
+	border-radius: 0;
+	transition: all .6s ease;
+}
+.liBox:hover .caption a{
+	background-color: blue;
+	color: #FFF;
+	text-indent: 2rem;
+}
+/*新闻资讯*/
+.news{
+	
+}
+.news>.newsTop{
+	position: relative;
+	margin-bottom: 30px;
+}
+.newsTit{
+	font-size: 80px;
+}
+.news>.newsTop>h3{
+	position: relative;
+    color: #003a89;
+    font-weight: 700;
+    margin-top: -45px;
+}
+.news>.newsTop>a{
+	float: right;
+	color: #666;
+	font-size: 15px;
+	margin-top: -75px;
+}
+.newsL{
+	background-color: #f7f7f7;
+	border-radius: 0;
+	border:0;
+	padding: 10px;
+}
+.imgsA{
+	display: block;
+	overflow: hidden;
+}
+.news_dataBox{
+	margin-top: 15px;
+}
+.news_dataBox>span{
+	display: block;
+}
+.news_date{
+	border-bottom: 1px solid #eaeaea;
+}
+.text-b{
+	margin-top: 15px;
+}
+.news-tit{
+	font-size: 16px;
+	white-space: nowrap;
+	color: #333;
+	text-align: left;
+}
+.news-txt{
+	margin-top: 15px;
+    color: #666666;
+    font-size: 13px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.newsL .news-img{
+	position: relative;
+	transition: all 1.6s ease;
+}
+.newsL:hover .news-img{
+	transform: scale(1.4);
+}
+.newsList{
+	padding: 0;
+	transition: all .6s ease;
+}
+.newsList:hover{
+	background-color: #003a89;
+	color: #FFF;
+}
+.newsList:hover .news-txt{
+	color: #FFF;
+}
+.ri{
+	font-size: 50px;
+	margin-right: 15px;
+}
+.t{
+	padding-top: 15px;
+}
+.t i{
+	display: block;
+	width: 5px;
+	height: 5px;
+	background-color: #333;
+	margin-left: 85px;
+	border-radius: 50%;
+}
+/*合作伙伴*/
+.partnerTop h3{
+	margin-top: -45px;
+	font-size: 35px;
+	font-weight: 700;
+	color: #17498e;
+}
+.partner-mans a{
+	display: block;
+	overflow: hidden;
+	padding: 0;
+	width: 88%;
+	border: 1px solid #ddd;
+}
+.partner-mans a img{
+	transition: all 1s ease;
+}
+.partner-mans a:hover img{
+	transform: scale(1.2);
+}
+.swGo{
+	margin: 20px 0;
+}
+.swiper-container {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*页尾*/
+.footerL{
+	background-color: #f8f8f8;
+}
+.frendLink{
+	line-height: 60px;
+	font-size: 18px;
+	color: #666;
+}
+.frendLink a{
+	text-indent: 8rem;
+	color: #666;
+	margin-left: 10px;
+}
+.footer{
+	background-color: #17498e;
+	padding: 30px 0 0 0;
+}
+.footer-main{
+	border-bottom: 1px solid #2f5c9a;
+}
+.fTit{
+	font-size: 16px;
+	color: #FFF;
+}
+.fLi a,.fLi{
+	color: #a0c1ea;
+}
+.fLi a:hover{
+	text-decoration: underline;
+}
+.footerBottom{
+	line-height: 40px;
+	padding: 0;
+	text-align: center;
+}
